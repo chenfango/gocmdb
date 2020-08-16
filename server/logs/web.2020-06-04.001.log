@@ -1,0 +1,967 @@
+2020/02/09 09:45:07.836 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   94.95217ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 09:45:14.405 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  22.759456ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 09:45:23.518 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.357469ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 09:45:33.492 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.268588ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 09:45:46.736 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.285753ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 09:45:53.500 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  22.232273ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 09:46:03.481 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.569168ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 12:11:26.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.072612ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 12:11:36.412 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  48.793123ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 12:11:48.414 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   16.63139ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 12:11:51.747 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.56954ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 12:12:01.692 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.006867ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 12:12:11.690 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.456974ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 13:47:24.054 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 13:47:29.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  12.776007ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:47:29.525 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.560051ms|   match|[97;46m POST    [0m /v2/api/register/b64119c8a6194f32bd0e531a77409115/   r:v2api/register/:uuid/
+2020/02/09 13:47:30.527 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    4.52607ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:47:38.408 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.874944ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:47:46.287 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.682706ms|   match|[97;44m GET     [0m /auth/login   r:/auth/login/*
+2020/02/09 13:47:46.951 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    602.596µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/02/09 13:47:48.413 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.007158ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:47:48.449 [D] [server.go:2774]  |            ::1|[90;47m 302 [0m|  26.432651ms|   match|[97;46m POST    [0m /auth/login   r:/auth/login/*
+2020/02/09 13:47:48.588 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  108.39279ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/09 13:47:49.197 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.708238ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 13:47:53.726 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  34.985386ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 13:47:53.902 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.810258ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 13:47:57.140 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  34.534096ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 13:47:57.318 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.529721ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 13:47:57.804 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  26.788133ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 13:47:57.963 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.704773ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 13:47:58.057 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.248407ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 13:47:58.267 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  13.229186ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 13:47:58.310 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  47.870087ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 13:47:58.416 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    6.05827ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:47:58.505 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.138489ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 13:48:08.415 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.564208ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:48:18.413 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.716019ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:48:28.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.97416ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:48:29.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.136075ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:48:38.442 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.624092ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:48:48.416 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.621886ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:48:58.416 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.216578ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:49:08.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.192004ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:49:18.417 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.781377ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:49:28.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.721152ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:49:29.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.484111ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:49:38.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.319023ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:49:48.417 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.210532ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:49:58.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.358899ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:50:08.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.526909ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:50:18.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.888009ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:50:28.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.321817ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:50:29.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.829534ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:50:38.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.725773ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:50:48.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.085221ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:50:58.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.465085ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:51:08.415 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.678459ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:51:18.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.043709ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:51:28.417 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.066953ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:51:29.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.083602ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:51:38.415 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.469916ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:51:48.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.069153ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:51:58.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.202906ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:52:08.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.822367ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:52:18.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.173117ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:52:28.414 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.991937ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:52:29.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.872879ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:52:38.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.323007ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:52:48.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.721794ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:52:58.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.529542ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:53:08.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.147295ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:53:18.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.90928ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:53:29.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.389119ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:53:29.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.374614ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:53:38.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    4.69077ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:53:48.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.52341ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:53:58.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.55835ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:54:08.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    4.29638ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:54:18.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.346675ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:54:28.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.991327ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:54:29.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.924988ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:54:38.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.396494ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:54:48.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.566502ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:54:58.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.287261ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:55:08.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.739707ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:55:18.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.491717ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:55:29.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.705575ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:55:29.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.728922ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:55:38.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.221953ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:55:48.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.047773ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:55:58.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.16297ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:56:08.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.342338ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:56:18.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.49596ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:56:28.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.448683ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:56:29.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.566083ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:56:38.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.226705ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:56:48.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.460452ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:56:58.420 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.154498ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:57:08.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.672575ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:57:18.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.423102ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:57:28.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.730269ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:57:29.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.252042ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:57:38.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.645617ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:57:48.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.397912ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:57:58.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.417932ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:58:08.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.338773ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:58:18.433 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|     5.2691ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:58:29.431 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|     2.2438ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:58:29.431 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.322968ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:58:38.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.475066ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:58:48.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.586657ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:58:58.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.953807ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:59:08.432 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.630919ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:59:18.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.505374ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:59:29.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.045271ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:59:29.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.089156ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 13:59:38.423 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.468998ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:59:48.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.904865ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 13:59:58.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.880194ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:00:08.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.577434ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:00:18.426 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.891113ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:00:28.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.031811ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:00:29.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.46463ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 14:00:38.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.734342ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:00:48.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.49634ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:00:58.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.445672ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:01:08.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.581387ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:01:18.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.434512ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:01:28.424 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.773256ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:01:29.427 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.073665ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 14:01:38.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    4.93395ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:01:48.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.57048ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:01:58.431 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.536372ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:02:08.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.246996ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:02:18.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.551274ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:02:29.431 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.353496ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 14:02:29.432 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.750645ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:02:38.433 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.412325ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:02:48.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.359791ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:02:58.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.203921ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:03:08.433 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    5.18949ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:03:18.432 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.675113ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:03:28.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.455457ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:03:29.433 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.533336ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 14:03:38.436 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.243197ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:03:48.428 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.454775ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:03:58.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.733854ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:04:08.437 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.892939ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:04:18.435 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.471002ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:04:28.430 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.665674ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:04:29.433 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.50511ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 14:04:38.436 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.057679ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:04:48.437 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.348062ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:04:58.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.168088ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:05:08.438 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.228676ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:05:18.434 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.732412ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:05:28.439 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.632999ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:05:29.435 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.266248ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 14:05:38.436 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.367918ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:05:48.435 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.426075ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:05:58.438 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.40291ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:06:08.437 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.490374ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:06:18.441 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.990488ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:06:28.445 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.389929ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 14:06:29.445 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.017856ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:09:56.008 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:09:58.168 [D] [server.go:2774]  |            ::1|[90;47m 302 [0m|   7.427863ms|   match|[97;44m GET     [0m /     r:/
+2020/02/09 15:09:58.293 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  94.891577ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/09 15:09:59.059 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|     4.8814ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 15:10:01.061 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    462.106µs| nomatch|[97;44m GET     [0m /userpage/dashboard.html
+2020/02/09 15:10:02.387 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.865583ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 15:10:03.986 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 103.636208ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:10:04.189 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  19.490136ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:10:04.858 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 108.453673ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:10:05.053 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.657806ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:10:05.642 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  47.295761ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:10:05.852 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  13.769693ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:10:06.386 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  43.189609ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:10:06.678 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  14.918904ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:10:10.236 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  45.707292ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:10:10.401 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  13.479252ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:10:12.276 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  34.052716ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/09 15:10:12.460 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.278466ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 15:10:14.990 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 101.392246ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:10:15.192 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.351522ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:18:57.428 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:19:42.299 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:19:43.149 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 215.362196ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:19:43.854 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 130.513311ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:19:44.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.416102ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:19:45.883 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  28.588361ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:48.550 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  32.790202ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:49.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  42.329312ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:49.280 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   35.19368ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:49.486 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  36.046205ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:49.691 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   41.75194ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:51.550 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    27.5372ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:51.790 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.729366ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:52.025 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  42.638429ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:52.948 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  35.915214ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:53.191 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  49.502297ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:54.893 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  93.506005ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:19:55.134 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.595191ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:19:56.696 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  41.329676ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:58.060 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  33.085017ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:58.273 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   35.55191ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:58.503 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  48.863566ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:19:58.710 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  38.484475ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:20:01.914 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  99.337689ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:20:02.112 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.672746ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:20:02.951 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  45.553852ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:20:03.117 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  17.131718ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:20:04.033 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  36.200884ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:20:04.204 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.017095ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:20:05.864 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  38.464462ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:20:06.046 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.856872ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:20:07.576 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  47.902089ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:20:07.774 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  17.957487ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:20:09.549 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.634757ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 15:20:09.711 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.312951ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 15:20:11.713 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.070676ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 15:20:11.874 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.238705ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 15:20:13.884 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  44.079369ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/09 15:20:14.058 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   11.96288ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 15:20:16.242 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  33.132054ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:21:30.638 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:21:31.605 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  48.072402ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:21:33.200 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.810877ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:14.415 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:26:28.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.807391ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:26:28.148 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.913682ms|   match|[97;46m POST    [0m /v2/api/register/b64119c8a6194f32bd0e531a77409115/   r:v2api/register/:uuid/
+2020/02/09 15:26:29.147 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.40319ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:26:37.059 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.627736ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:26:37.312 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  65.853692ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:37.630 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  82.501197ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:38.387 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   57.73235ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:38.606 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   74.60847ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:38.659 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  51.754154ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:38.877 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   80.49286ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:39.160 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  55.062852ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:39.368 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.068105ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:39.657 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  66.011198ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:39.898 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 102.865973ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:42.418 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  57.409301ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:42.614 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  69.985965ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:43.176 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  55.166706ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:43.407 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  82.626142ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:43.474 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  63.586303ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:43.670 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  72.005339ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:47.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.913854ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:26:53.570 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  57.977808ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:53.795 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  89.320656ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:53.856 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   59.47641ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:54.073 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  66.038226ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:54.124 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  49.339951ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:54.388 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  92.416719ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:54.525 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  55.568149ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:54.756 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  75.311912ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:54.814 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  51.463143ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:55.024 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  73.457351ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:55.091 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.683953ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:55.297 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  77.233938ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:55.410 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  59.084734ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:55.606 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  68.212269ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:55.787 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   51.56671ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:56.002 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  80.805065ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:56.204 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  59.182084ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:56.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  78.342804ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:56.476 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  53.025646ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:56.707 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 102.521338ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:26:57.061 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|     2.3945ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:27:02.588 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.239601ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:27:02.790 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.998896ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:27:06.223 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  52.904333ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:06.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   73.13461ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:07.062 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.606645ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:27:14.036 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  59.816127ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:14.253 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  73.999243ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:17.060 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|     2.4715ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:27:18.493 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  52.684733ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:18.690 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.209771ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:21.024 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  52.418774ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:21.216 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  86.008407ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:27:28.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.199566ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:27:28.067 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.949299ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:27:37.062 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.841913ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:27:47.063 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.048501ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:27:57.067 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.756485ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:28:07.063 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.544953ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:28:17.059 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.326564ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:28:27.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.01916ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:28:28.067 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.110053ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:28:37.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.986436ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:28:47.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.964678ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:28:57.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.682298ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:29:07.063 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.859466ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:29:13.269 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  62.563414ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:13.525 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  68.740753ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:14.608 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    53.4768ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:14.828 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  83.000622ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:14.887 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  57.903786ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:15.117 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  81.331055ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:15.177 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   58.75752ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:15.391 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  77.682472ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:15.441 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  49.254342ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:15.658 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  76.404614ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:15.831 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  54.681509ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:16.046 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  72.199604ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:16.103 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  55.832425ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:16.339 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  93.639245ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:29:17.061 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.921496ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:29:28.068 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.569853ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:29:28.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.742693ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:29:37.063 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.031963ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:29:47.066 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.206885ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:29:57.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.852404ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:30:07.064 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.447917ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:30:17.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.306823ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:30:27.065 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.786826ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:30:28.071 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.505338ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:30:37.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.788327ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:30:47.064 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.38812ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:30:57.067 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.61317ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:31:07.071 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.138417ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:31:17.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.860692ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:31:28.068 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.903177ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:31:28.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.940613ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:31:37.070 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.924871ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:31:47.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.219627ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:31:57.070 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.249842ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:07.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.22324ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:14.487 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:32:17.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.330473ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:19.646 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   68.97005ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:19.895 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.742317ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:20.782 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.159881ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.020 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  76.795767ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  61.195422ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.332 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  86.976599ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.489 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  59.686107ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.714 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  78.363205ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.771 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  55.990896ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:21.987 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   64.52853ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:24.857 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  97.107373ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:32:25.055 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.997266ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:32:26.539 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  57.608375ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:26.767 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.096815ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:27.070 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.906632ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:28.075 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.400516ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:32:32.872 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.205205ms| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:32:32.873 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    636.319µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:32:36.577 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  84.098703ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:36.941 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    497.718µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:32:36.942 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.450588ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:32:37.068 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  87.654944ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:37.070 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.779295ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:38.213 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  65.930697ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:38.563 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    785.854µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:32:38.563 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    522.691µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:32:38.692 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  85.681619ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:47.069 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.03244ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:57.071 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.008807ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:32:57.232 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   76.29833ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:32:57.598 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|     472.08µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:32:57.600 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.425737ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:32:57.723 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  79.514179ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:33:07.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.058543ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:33:17.070 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.541211ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:33:27.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.976344ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:33:28.076 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.307432ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:33:37.074 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.537021ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:33:47.073 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.855039ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:33:57.073 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.45617ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:34:07.070 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.826485ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:34:17.075 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.195302ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:34:27.074 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.881253ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:34:28.085 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.786486ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:34:32.184 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   80.12177ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:34:32.639 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    576.748µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:34:32.642 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    498.964µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:34:32.785 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.024744ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:34:35.473 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  79.725798ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:34:35.862 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    860.256µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:34:35.867 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   2.948422ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:34:36.015 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  82.324596ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:34:37.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.258235ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:34:47.075 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.237223ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:34:57.075 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.058034ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:35:07.075 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.177428ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:35:17.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.168244ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:35:28.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.267551ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:35:28.084 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.292816ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:35:37.073 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.367659ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:35:47.077 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.286349ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:35:57.076 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.988632ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:36:07.074 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.644203ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:36:17.073 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.003753ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:36:27.081 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.823549ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:36:28.077 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.169423ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:36:37.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.572781ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:36:47.074 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.147976ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:36:57.080 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.720878ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:37:07.081 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.380933ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:37:17.079 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.891066ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:37:23.697 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  60.680919ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:23.973 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  75.132985ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.198 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  58.823731ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.407 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  77.838014ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.462 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  53.583309ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.665 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  79.589314ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.717 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  50.127291ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.922 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  72.651852ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:24.987 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  62.490503ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:25.226 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    84.5825ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:28.084 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.303273ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:37:28.084 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.306958ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:37:28.704 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    566.088µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:28.710 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    745.628µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:31.414 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  50.695824ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:31.704 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|     571.37µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:31.705 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    685.164µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:31.812 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  59.848187ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:32.299 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  51.989077ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:32.646 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    652.801µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:32.646 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    850.425µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:32.775 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  81.934059ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:37.077 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.464905ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:37:37.640 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  99.061355ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:37:37.937 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    603.652µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:37.939 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.462289ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:38.107 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.744747ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:37:39.579 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  96.038457ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:37:39.898 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    531.434µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:39.903 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    604.648µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:40.047 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.917356ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:37:42.728 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 118.345757ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:37:43.081 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   3.699694ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:43.082 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   2.195583ms| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:43.162 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.160527ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:37:47.080 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.481236ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:37:47.918 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.259268ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:48.283 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.187571ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:48.283 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.136371ms| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:48.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 106.456324ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:48.527 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 103.628044ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:48.887 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    497.605µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:48.888 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    983.325µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:49.047 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 112.171661ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:50.999 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  66.799848ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:51.327 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.532784ms| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:51.329 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    916.322µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:51.436 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  73.123842ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:52.194 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.865176ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:52.546 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    502.244µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:37:52.546 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    735.847µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:37:52.660 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   81.32513ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:37:57.077 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.90835ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:38:07.080 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.069622ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:38:17.079 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.358912ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:38:28.086 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.572537ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:38:28.086 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.852124ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:39:14.743 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:39:17.085 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.803219ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:39:27.949 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:39:28.032 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.921936ms| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:39:28.034 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.122447ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:39:28.093 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.528211ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:39:28.228 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.277535ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:39:32.985 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  35.742609ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:35.951 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  34.506062ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:36.696 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   35.59248ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:36.930 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  27.708703ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:37.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.668072ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:39:37.171 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  52.191154ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:37.646 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  35.578923ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:37.953 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  36.479964ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:39:47.084 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.176997ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:39:57.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.291807ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:40:07.083 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.724218ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:40:17.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.957929ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:40:27.081 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.245902ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:40:28.090 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.887083ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:40:37.086 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.21957ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:40:47.088 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.821374ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:41:00.766 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:41:01.095 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.849716ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:01.360 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  73.273857ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:02.474 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   52.94317ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:02.708 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.580046ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:02.757 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  47.269223ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:02.996 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  66.863017ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:03.275 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  58.918326ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:03.509 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 103.963548ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:07.093 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.41518ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:41:09.297 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.356107ms|   match|[97;44m GET     [0m /auth/login   r:/auth/login/*
+2020/02/09 15:41:09.366 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.885945ms|   match|[97;44m GET     [0m /static/css/main.css
+2020/02/09 15:41:09.368 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.324152ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/css/font-awesome.min.css
+2020/02/09 15:41:10.262 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.232605ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2020/02/09 15:41:13.742 [D] [server.go:2774]  |            ::1|[90;47m 302 [0m|   2.233027ms|   match|[97;46m POST    [0m /auth/login   r:/auth/login/*
+2020/02/09 15:41:13.792 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  46.719775ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/09 15:41:13.822 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    833.523µs|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.css
+2020/02/09 15:41:13.839 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.641075ms|   match|[97;44m GET     [0m /static/js/jquery-3.3.1.min.js
+2020/02/09 15:41:13.840 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.408094ms|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2020/02/09 15:41:13.840 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    734.579µs|   match|[97;44m GET     [0m /static/js/main.js
+2020/02/09 15:41:13.841 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.857533ms|   match|[97;44m GET     [0m /static/js/plugins/pace.min.js
+2020/02/09 15:41:13.841 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.371473ms|   match|[97;44m GET     [0m /static/js/plugins/dataTables.bootstrap.min.js
+2020/02/09 15:41:13.842 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    7.94423ms|   match|[97;44m GET     [0m /static/js/popper.min.js
+2020/02/09 15:41:13.842 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.897587ms|   match|[97;44m GET     [0m /static/js/plugins/jquery.dataTables.min.js
+2020/02/09 15:41:13.857 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.198366ms|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.min.js
+2020/02/09 15:41:13.858 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.515981ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js
+2020/02/09 15:41:13.859 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.359887ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/locales/bootstrap-datepicker.zh-CN.min.js
+2020/02/09 15:41:13.860 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.390296ms|   match|[97;44m GET     [0m /static/js/jquery.base64.js
+2020/02/09 15:41:13.860 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.873277ms|   match|[97;44m GET     [0m /static/js/jquery.cookie-1.4.1.min.js
+2020/02/09 15:41:13.860 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.960344ms|   match|[97;44m GET     [0m /static/js/utils.js
+2020/02/09 15:41:13.861 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    798.617µs|   match|[97;44m GET     [0m /static/plugins/jquery.formatDateTime-1.1.6/dist/jquery.formatDateTime.min.js
+2020/02/09 15:41:13.880 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  12.368673ms|   match|[97;44m GET     [0m /static/js/plugins/select2.min.js
+2020/02/09 15:41:13.883 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  16.119916ms|   match|[97;44m GET     [0m /static/plugins/incubator-echarts-4.6.0-rc.1/dist/echarts.min.js
+2020/02/09 15:41:14.132 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.153172ms|   match|[97;44m GET     [0m /static/json/datatable.i18n.zh-CN.json
+2020/02/09 15:41:14.169 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.457112ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 15:41:15.643 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   49.23192ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:15.848 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  63.043102ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:16.608 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  48.686206ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:16.785 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.776174ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:16.859 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  44.637773ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:17.028 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  74.688354ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:17.082 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  53.227557ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:17.096 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.421817ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:41:17.243 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.504646ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:18.622 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  91.902585ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:41:18.742 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.155857ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:41:19.676 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  58.426555ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:19.846 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  66.365131ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:20.566 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  46.168458ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:20.741 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.071911ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:20.800 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  50.068369ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:20.966 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  65.861825ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:21.556 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  40.215772ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:41:21.680 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.176551ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:41:24.777 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  38.392311ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 15:41:24.905 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.413826ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 15:41:27.096 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.198776ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:41:28.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.433014ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:41:28.147 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    873.393µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:28.150 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    516.349µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:35.465 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  56.861425ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 15:41:35.708 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    519.926µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:35.709 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.150811ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:35.811 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    7.98454ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 15:41:37.095 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.442607ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:41:39.847 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 124.220891ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:41:40.151 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    513.622µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:40.153 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.227719ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:40.220 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.664142ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:41:42.280 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    41.3497ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:41:42.511 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    637.179µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:42.515 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    909.131µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:42.603 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.105106ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:41:43.676 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   48.37842ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:41:43.913 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    559.484µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:43.915 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.120219ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:44.001 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.622358ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:41:46.138 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  44.227346ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:41:46.346 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    545.525µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:46.349 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|     607.35µs| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:46.429 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    10.2819ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:41:47.096 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.148709ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:41:47.860 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  54.376153ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:41:48.091 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   3.456213ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:48.091 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.616495ms| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:48.174 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.332878ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:41:51.462 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  49.111342ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:41:51.676 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    549.728µs| nomatch|[97;44m GET     [0m /static/js/popper.min.js.map
+2020/02/09 15:41:51.680 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   2.706317ms| nomatch|[97;44m GET     [0m /static/js/bootstrap.min.js.map
+2020/02/09 15:41:51.754 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.446751ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:41:55.803 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  44.785689ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:55.975 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  70.166043ms|   match|[97;44m GET     [0m /dashboard/index   r:/dashboard/index/*
+2020/02/09 15:41:57.099 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.311765ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:42:07.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.721753ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:42:17.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.517982ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:42:27.096 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.298622ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:42:28.097 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.278137ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:42:37.098 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.844897ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:42:47.095 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.919877ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:42:57.095 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.611987ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:43:07.099 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.49425ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:43:17.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.135155ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:43:28.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.292076ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:43:28.102 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.234475ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:43:37.105 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.502476ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:43:47.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.356374ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:43:57.104 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.524684ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:44:07.105 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.478444ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:44:17.101 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.241676ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:44:27.102 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.483006ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:44:28.107 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.401186ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:44:37.102 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.255534ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:44:47.103 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.261994ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:44:57.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.138248ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:07.103 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.339479ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:17.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.323101ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:28.104 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.988343ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:45:28.105 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.729164ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:37.103 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.873288ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:46.987 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:45:47.108 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.052707ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:48.700 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.014774ms| nomatch|[97;44m GET     [0m /dashboard/index
+2020/02/09 15:45:50.219 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|     864.69µs| nomatch|[97;44m GET     [0m /dashboard/index
+2020/02/09 15:45:50.768 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    518.081µs| nomatch|[97;44m GET     [0m /dashboard/index
+2020/02/09 15:45:50.994 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|     423.94µs| nomatch|[97;44m GET     [0m /dashboard/index
+2020/02/09 15:45:52.099 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.953145ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:53.399 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  60.337328ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:53.538 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.196916ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:54.153 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  64.177817ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:54.269 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.987078ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:54.419 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  62.240907ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:54.558 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.934096ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:55.173 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   58.25373ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:55.307 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.703353ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:55.438 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  57.216423ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:55.570 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    8.80883ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:55.689 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  63.053377ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:55.824 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.136125ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:56.642 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  63.495358ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:56.794 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.654176ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:57.105 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.325824ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:45:57.785 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  54.015026ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:57.903 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.336208ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:58.452 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   59.84097ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:58.589 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.868446ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:58.707 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  76.479711ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:58.844 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.698637ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:59.105 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  67.374502ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:59.249 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.335676ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:59.343 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  78.959149ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:59.491 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.268584ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:45:59.586 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   88.02205ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:59.765 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  73.043678ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:45:59.899 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    6.65502ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:02.792 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  61.730107ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:02.914 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.009251ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:03.284 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   60.87528ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:03.396 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.188124ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:03.527 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  69.183287ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:03.680 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  13.776954ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:03.768 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  71.127822ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:03.922 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|      4.532ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:03.977 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  82.503059ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:04.131 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  12.434201ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:04.199 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  90.772887ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:04.335 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.513119ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:04.629 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  75.311507ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:04.781 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.571021ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:04.917 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 115.076391ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:46:05.074 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.642209ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:07.101 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.055933ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:46:15.798 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.372218ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:17.104 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.129657ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:46:25.573 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  16.908604ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:27.102 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.788627ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:46:28.134 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  17.769845ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:46:35.555 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.504502ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:37.118 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    6.03652ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:46:45.549 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.734553ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:47.104 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.012645ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:46:55.550 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.22628ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:46:57.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.521827ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:47:05.555 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.311417ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:47:07.108 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.887137ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:47:15.726 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.308125ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:47:17.104 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.365729ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:47:25.548 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.206272ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:47:27.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.845508ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:47:28.115 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.543829ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:47:35.557 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.473325ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:47:37.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.876967ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:47:45.072 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.589189ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:47:47.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.556238ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:47:55.763 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.45921ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:47:57.103 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.81933ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:48:09.479 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/09 15:48:09.746 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  61.729021ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:48:10.302 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.151294ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:48:10.564 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  48.309883ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:48:10.711 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.732656ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:48:11.736 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.208613ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/02/09 15:48:11.870 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  19.892129ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/02/09 15:48:17.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.456261ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:48:28.112 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.048686ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:48:28.114 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.900523ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:48:37.106 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.584916ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:48:47.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.100187ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:48:57.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.399848ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:49:07.110 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.117276ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:49:17.110 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.749464ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:49:27.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.87592ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:49:28.112 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.12261ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:49:37.107 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.935965ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:49:47.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.595102ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:49:57.109 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.212327ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:07.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.399558ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:17.118 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.222494ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:27.114 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.03923ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:28.117 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.878351ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:50:37.116 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.911597ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:47.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.84759ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:57.119 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.875792ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:50:59.576 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  98.838938ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:50:59.736 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.981261ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:51:00.371 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  44.134739ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:51:00.504 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.134084ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:51:01.327 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  35.254953ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:51:01.471 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.606099ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:51:03.461 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  32.160092ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/09 15:51:03.586 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.744572ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 15:51:05.163 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.787257ms| nomatch|[97;44m GET     [0m /resourcepage/widgets.html
+2020/02/09 15:51:06.938 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.436622ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/09 15:51:07.111 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|     1.8139ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:51:08.895 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.239458ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/09 15:51:09.014 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.060122ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/09 15:51:17.113 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.080165ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:51:27.117 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.570383ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:51:28.120 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.450846ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 15:51:29.921 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  35.724862ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/02/09 15:51:30.043 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.070355ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/02/09 15:51:32.134 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  99.495892ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/09 15:51:32.258 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.175167ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/09 15:51:33.154 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.811311ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/09 15:51:33.295 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  14.256215ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/09 15:51:34.038 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  34.743163ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/09 15:51:34.166 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.175381ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:51:37.114 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.092208ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:51:44.154 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.528287ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:51:47.113 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.938791ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:51:54.156 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.352357ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:51:57.114 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.867868ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 15:52:04.825 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.12243ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 15:52:07.115 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.226289ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 18:52:13.922 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    6.31885ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 18:52:16.467 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.175421ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 18:52:23.916 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.504712ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 18:52:27.481 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.26896ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 18:52:27.482 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.580639ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:45:26.807 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  61.816545ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:45:27.277 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.785733ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:45:31.179 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.662416ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:45:33.389 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.209543ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:45:41.259 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.918595ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:45:43.384 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.187065ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:45:50.425 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.280117ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:45:53.385 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.485794ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:00.421 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.467582ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:46:03.387 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.967417ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:10.422 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.69588ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:46:14.394 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.829389ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:14.395 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.667529ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 19:46:20.536 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  32.524842ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:46:23.388 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.273458ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:29.445 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.634483ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:46:31.998 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    1.78466ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:39.462 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  16.507248ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:46:41.995 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.226027ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:49.439 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.772649ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:46:52.001 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.03688ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:46:59.444 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.303474ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:47:01.999 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.148885ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:47:09.507 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.28418ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:47:12.000 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.344613ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:47:13.013 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.716332ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 19:47:19.439 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.525105ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:47:22.000 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.132775ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:47:29.503 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.345431ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:47:31.997 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.199355ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:47:39.445 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.852569ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:47:42.002 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.446626ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:47:49.658 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.713323ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:47:51.996 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.291356ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:00.056 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.233524ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:48:01.999 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.843063ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:10.101 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.480081ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:48:12.003 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.89183ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:13.009 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.009096ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 19:48:20.550 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.685866ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:48:22.001 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.832801ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:29.444 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.481256ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:48:31.998 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.008979ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:39.516 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    3.49488ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:48:42.001 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.373064ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:50.144 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.129383ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:48:51.999 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.777093ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:48:59.444 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.231264ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:49:02.003 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.892345ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:49:09.442 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.321384ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:49:13.004 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.552158ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:49:13.005 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.071935ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/09 19:49:19.045 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.265355ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:49:22.002 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.313109ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:49:29.480 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.158111ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:49:31.999 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.099535ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:49:39.479 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.204706ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:49:42.004 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.172984ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:49:49.500 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.179278ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:49:52.006 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.022932ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:49:59.457 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.731292ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:50:02.007 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.15066ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:50:09.871 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  25.847396ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/09 19:50:12.004 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.428551ms|   match|[97;46m POST    [0m /v2/api/heartbeat/b64119c8a6194f32bd0e531a77409115/   r:v2api/heartbeat/:uuid/
+2020/02/09 19:50:13.014 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    5.17275ms|   match|[97;46m POST    [0m /v2/api/log/b64119c8a6194f32bd0e531a77409115/   r:v2api/log/:uuid/
+2020/02/10 12:41:26.106 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/02/10 12:41:28.050 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    6.03045ms|   match|[97;44m GET     [0m /auth/login   r:/auth/login/*
+2020/02/10 12:41:28.242 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.831793ms|   match|[97;44m GET     [0m /static/css/main.css
+2020/02/10 12:41:28.242 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   1.918886ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/css/font-awesome.min.css
+2020/02/10 12:41:28.702 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|    877.143µs|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2020/02/10 12:41:39.937 [D] [server.go:2774]  |            ::1|[90;47m 302 [0m|   7.792636ms|   match|[97;46m POST    [0m /auth/login   r:/auth/login/*
+2020/02/10 12:41:39.993 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  51.200566ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/10 12:41:40.052 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   2.402216ms|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.css
+2020/02/10 12:41:40.060 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   9.108475ms|   match|[97;44m GET     [0m /static/js/plugins/pace.min.js
+2020/02/10 12:41:40.075 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   7.492433ms|   match|[97;44m GET     [0m /static/plugins/jquery.formatDateTime-1.1.6/dist/jquery.formatDateTime.min.js
+2020/02/10 12:41:40.076 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|  10.822269ms|   match|[97;44m GET     [0m /static/js/plugins/jquery.dataTables.min.js
+2020/02/10 12:41:40.077 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   6.735066ms|   match|[97;44m GET     [0m /static/js/plugins/dataTables.bootstrap.min.js
+2020/02/10 12:41:40.079 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   6.297333ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js
+2020/02/10 12:41:40.085 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   6.472294ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/locales/bootstrap-datepicker.zh-CN.min.js
+2020/02/10 12:41:40.085 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  28.764484ms|   match|[97;44m GET     [0m /static/plugins/incubator-echarts-4.6.0-rc.1/dist/echarts.min.js
+2020/02/10 12:41:40.086 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|  13.106797ms|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.min.js
+2020/02/10 12:41:40.087 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   4.361507ms|   match|[97;44m GET     [0m /static/js/utils.js
+2020/02/10 12:41:40.088 [D] [server.go:2774]  |            ::1|[90;47m 304 [0m|   5.341477ms|   match|[97;44m GET     [0m /static/js/plugins/select2.min.js
+2020/02/10 12:41:40.589 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.241817ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/10 12:46:07.837 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.329337ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/02/10 12:46:08.118 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  13.560163ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/02/10 12:47:53.215 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  42.884256ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/02/10 12:47:53.460 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.750874ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/02/10 12:47:55.748 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.459289ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/10 12:47:55.913 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  14.988753ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/10 12:47:59.030 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   40.39166ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/02/10 12:47:59.198 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.076974ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/02/10 12:48:02.446 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  35.767892ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/02/10 12:48:02.601 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.954655ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/02/10 12:48:04.476 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  36.260396ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/02/10 12:48:04.608 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  12.633382ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/02/10 12:48:05.975 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  95.633842ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/02/10 12:48:06.132 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.170179ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/10 12:48:06.886 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  32.665475ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/10 12:48:07.039 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.389357ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:17.026 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.573725ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:27.020 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.384695ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:37.928 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.407656ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:44.915 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  40.182759ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/10 12:48:45.159 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.885481ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:45.173 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  46.899588ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/02/10 12:48:45.361 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    5.98703ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:48.335 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.748987ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:49.025 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.058257ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:49.615 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.884555ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:50.932 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.139191ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:54.412 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.790879ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/02/10 12:48:55.272 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.104825ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:48:55.345 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.413819ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:49:05.346 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.063438ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/02/10 12:49:07.150 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   33.49414ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/02/10 12:49:07.320 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.216765ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/06/03 09:25:18.583 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:25:18.583 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:25:18.586 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:25:18.586 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:26:07.423 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:26:07.423 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:26:07.427 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:26:07.427 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:35:41.844 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:35:41.844 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:35:41.846 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:35:41.846 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:36:04.322 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:36:04.322 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:36:04.326 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:36:04.327 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:36:28.936 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:36:28.936 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:36:28.938 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:36:28.938 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:38:10.605 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:38:10.605 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:38:10.608 [I] [asm_amd64.s:1337]  http server Running on http://:8888
+2020/06/03 09:38:10.608 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8888: bind: address already in use
+2020/06/03 09:38:28.151 [I] [asm_amd64.s:1337]  http server Running on http://:8889
+2020/06/03 09:53:18.928 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.818903ms|   match|[97;44m GET     [0m /auth/login   r:/auth/login/*
+2020/06/03 09:53:19.133 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.033662ms|   match|[97;44m GET     [0m /static/css/main.css
+2020/06/03 09:53:19.134 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.113106ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/css/font-awesome.min.css
+2020/06/03 09:53:20.609 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   1.493156ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2020/06/03 09:53:20.667 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|   1.336092ms| nomatch|[97;44m GET     [0m /favicon.ico
+2020/06/03 09:53:29.120 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.357963ms|   match|[97;46m POST    [0m /auth/login   r:/auth/login/*
+2020/06/03 09:58:27.343 [D] [server.go:2774]  |            ::1|[90;47m 302 [0m|   3.458342ms|   match|[97;46m POST    [0m /auth/login   r:/auth/login/*
+2020/06/03 09:58:27.400 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  51.568655ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/06/03 09:58:27.463 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.541799ms|   match|[97;44m GET     [0m /static/js/jquery-3.3.1.min.js
+2020/06/03 09:58:27.467 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.422131ms|   match|[97;44m GET     [0m /static/js/popper.min.js
+2020/06/03 09:58:27.482 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  24.390691ms|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.css
+2020/06/03 09:58:27.493 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   29.31902ms|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2020/06/03 09:58:27.495 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  24.307781ms|   match|[97;44m GET     [0m /static/js/main.js
+2020/06/03 09:58:27.501 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.039759ms|   match|[97;44m GET     [0m /static/js/plugins/jquery.dataTables.min.js
+2020/06/03 09:58:27.502 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  14.979008ms|   match|[97;44m GET     [0m /static/js/jquery.base64.js
+2020/06/03 09:58:27.505 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  17.729489ms|   match|[97;44m GET     [0m /static/js/plugins/pace.min.js
+2020/06/03 09:58:27.509 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  21.400327ms|   match|[97;44m GET     [0m /static/js/plugins/dataTables.bootstrap.min.js
+2020/06/03 09:58:27.514 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.627423ms|   match|[97;44m GET     [0m /static/js/jquery.cookie-1.4.1.min.js
+2020/06/03 09:58:27.515 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.723629ms|   match|[97;44m GET     [0m /static/js/utils.js
+2020/06/03 09:58:27.516 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.871885ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js
+2020/06/03 09:58:27.518 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.366777ms|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.min.js
+2020/06/03 09:58:27.520 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.130345ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/locales/bootstrap-datepicker.zh-CN.min.js
+2020/06/03 09:58:27.522 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.008961ms|   match|[97;44m GET     [0m /static/plugins/jquery.formatDateTime-1.1.6/dist/jquery.formatDateTime.min.js
+2020/06/03 09:58:27.525 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.179049ms|   match|[97;44m GET     [0m /static/js/plugins/select2.min.js
+2020/06/03 09:58:27.536 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  15.694477ms|   match|[97;44m GET     [0m /static/plugins/incubator-echarts-4.6.0-rc.1/dist/echarts.min.js
+2020/06/03 09:58:27.790 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    426.901µs|   match|[97;44m GET     [0m /static/json/datatable.i18n.zh-CN.json
+2020/06/03 09:58:27.978 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.104713ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/06/03 09:59:24.477 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  45.607088ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/06/03 09:59:24.882 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.866926ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/06/03 09:59:52.200 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 103.619525ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/06/03 09:59:52.456 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  13.313962ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/06/03 10:00:00.697 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  47.854517ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/06/03 10:00:00.895 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   11.38471ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:05.095 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.811266ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/06/03 10:00:06.135 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.016549ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:06.962 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   3.976819ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/06/03 10:00:08.067 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.577691ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:10.866 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.719324ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:11.883 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.765661ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:20.249 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.093848ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:20.864 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.689613ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:00:30.176 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  48.856374ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/06/03 10:00:30.375 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.623736ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:00:40.337 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    2.78909ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:00:40.760 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  44.589495ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/06/03 10:00:40.941 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   7.369448ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/06/03 10:00:47.282 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  40.766471ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/06/03 10:00:47.540 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.404902ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/06/03 10:00:50.844 [D] [server.go:2774]  |            ::1|[97;43m 404 [0m|    720.562µs| nomatch|[97;44m GET     [0m /resourcepage/widgets.html
+2020/06/03 10:00:53.035 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  11.498156ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/06/03 10:00:54.867 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  40.741722ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2020/06/03 10:00:55.028 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  10.063146ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2020/06/03 10:01:07.490 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.348737ms|   match|[97;44m GET     [0m /user/modify   r:/user/modify/*
+2020/06/03 10:01:14.519 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   5.067537ms|   match|[97;44m GET     [0m /user/modify   r:/user/modify/*
+2020/06/03 10:01:17.869 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   4.829698ms|   match|[97;44m GET     [0m /user/create   r:/user/create/*
+2020/06/03 10:01:27.616 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m| 101.258902ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/06/03 10:01:27.869 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.464883ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/06/03 10:01:29.289 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.581424ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/06/03 10:01:29.472 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|    9.27257ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:01:32.175 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.146565ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/06/03 10:01:32.318 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   6.762185ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/06/03 10:01:36.924 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  96.000395ms|   match|[97;44m GET     [0m /cloudplatformpage/index   r:/cloudplatformpage/index/*
+2020/06/03 10:01:37.097 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  12.366912ms|   match|[97;44m GET     [0m /cloudplatform/list   r:/cloudplatform/list/*
+2020/06/03 10:01:41.738 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  43.115712ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/06/03 10:01:41.906 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.519563ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:01:43.933 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  39.270139ms|   match|[97;44m GET     [0m /virtualmachinepage/index   r:/virtualmachinepage/index/*
+2020/06/03 10:01:44.100 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  12.820306ms|   match|[97;44m GET     [0m /virtualmachine/list   r:/virtualmachine/list/*
+2020/06/03 10:01:46.431 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   46.55184ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/06/03 10:01:46.585 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   14.14937ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:01:56.568 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.622402ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:02:06.558 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.618004ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:02:16.563 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.936479ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:02:26.559 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   2.780038ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:02:34.572 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  42.074868ms|   match|[97;44m GET     [0m /agentpage/index   r:/agentpage/index/*
+2020/06/03 10:02:34.873 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   14.45795ms|   match|[97;44m GET     [0m /agent/list   r:/agent/list/*
+2020/06/03 10:02:39.611 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  36.772961ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/06/03 10:02:39.753 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   9.696256ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/06/03 10:02:52.010 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  42.869044ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/06/03 10:02:52.210 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   18.48993ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
+2020/06/03 10:02:53.723 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  37.203277ms|   match|[97;44m GET     [0m /resourcepage/index   r:/resourcepage/index/*
+2020/06/03 10:02:53.909 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  19.019859ms|   match|[97;44m GET     [0m /resource/list   r:/resource/list/*
+2020/06/03 10:02:55.499 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|  32.682746ms|   match|[97;44m GET     [0m /dashboardpage/index   r:/dashboardpage/index/*
+2020/06/03 10:02:55.637 [D] [server.go:2774]  |            ::1|[97;42m 200 [0m|   8.052896ms|   match|[97;44m GET     [0m /dashboard/stat   r:/dashboard/stat/*
